@@ -42,6 +42,7 @@ Write a program using TCP sockets to implement the following:
 
 ### Output
 
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%202/output.png" />
 
 
 
@@ -57,6 +58,8 @@ To gain experience of UDP socket programming for simple applications.
 Redo **Assignment 2** using **UDP sockets** instead of TCP sockets.
 
 ### Output
+
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%203/output.png" />
 
 
 
@@ -77,6 +80,16 @@ Install Wireshark in a virtual machine environment. Capture packets during a **P
 * List L2, L3, and L4 header fields extracted from the captured `.pcap` file
 
 ### Output
+
+
+
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/output1.png" />
+
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/output2.png" />
+
+### Time Diagram
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/time_diagram.png" />
+
 
 
 
