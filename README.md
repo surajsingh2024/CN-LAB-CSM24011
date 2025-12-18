@@ -18,6 +18,7 @@ Write a program to run TCP client and server socket programs where the client fi
 
 ### Output
 
+![Assignment 1 Output](CN LAB ASSIGNMENTS/Assignment 1/output.png)
 
 
 
