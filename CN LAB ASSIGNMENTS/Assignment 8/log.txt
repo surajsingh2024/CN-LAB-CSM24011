@@ -1,0 +1,18 @@
+[2025-11-18 19:20:42] SERVER: *** suraj has joined the chat ***
+
+[2025-11-18 19:21:04] SERVER: *** anuj has joined the chat ***
+
+[2025-11-18 19:21:08] anuj: hello
+[2025-11-18 19:21:15] suraj: hi anuj
+[2025-11-18 19:21:22] anuj: yes how are you
+[2025-11-18 19:21:31] suraj: I am fine brother
+[2025-11-26 15:40:19] SERVER: *** suraj has joined the chat ***
+
+[2025-11-26 15:42:54] SERVER: *** Suraj has joined the chat ***
+
+[2025-11-26 15:43:20] SERVER: *** Anuj has joined the chat ***
+
+[2025-11-26 15:43:25] Suraj: Hi
+[2025-11-26 15:43:29] Anuj: Hello
+[2025-11-26 15:43:37] Suraj: How are you?
+[2025-11-26 15:43:41] Anuj: I am Fine
