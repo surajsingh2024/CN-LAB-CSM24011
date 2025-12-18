@@ -1,313 +1,298 @@
-# CN-LAB-CSM24011
-This repository contains the implementation of Computer Networks Lab Assignments (1–14) as provided in the official CN Lab Manual. All programs are implemented using C, Python, Mininet, TCP/UDP sockets, RAW sockets, and Wireshark.
+# Computer Networks Lab
 
-🔹 CN Lab – Assignment 1
-Objective:
+This repository contains implementations for **Computer Networks Laboratory assignments**.
+Each section below lists **only the problem statement (question)** as given in the lab manual.
+**Outputs, screenshots.**
 
-To gain first hands on experience of basic Socket Programming.
+---
 
-Exercise:
+## Assignment 1: TCP Client–Server (Basic)
 
-Write a program to run TCP client and server socket programs where client first
-says “Hi” and in response server says “Hello”.
+### Objective
 
-Steps / Hints:
+To gain first hands-on experience of basic socket programming.
 
-Create two mininet hosts
+### Question
 
-Open the hosts individually in xterm windows
+Write a program to run TCP client and server socket programs where the client first says **"Hi"** and in response the server says **"Hello"**.
 
-In one host, run tcpserver program and then in another run the tcpclient
+### Output
 
-Learning Outcomes:
 
-Basics of TCP client and server programming.
 
-Output:
 
-🔹 CN Lab – Assignment 2
-Objective:
+---
+## Assignment 2: TCP Socket Programming (Multi-client Application)
 
-To gain experience of TCP Socket Programming for simple applications.
+### Objective
 
-Exercise:
+To gain experience of TCP socket programming for simple applications.
 
-Write a program using TCP socket to implement the following:
+### Question
 
-i. Server maintains records of fruits in the format:
-fruit-name, quantity Last-sold (server timestamp)
+Write a program using TCP sockets to implement the following:
 
-ii. Multiple client purchase the fruits one at a time
+* Server maintains records of fruits in the format: fruit-name, quantity, last-sold (server timestamp)
+* Multiple clients purchase fruits one at a time
+* Fruit quantity is updated after every sale
+* Server sends a regret message if requested quantity is not available
+* Server displays customer IDs ⟨IP, Port⟩ who have completed transactions
+* Server displays the total number of unique customers after each transaction
 
-iii. The fruit quantity is updated each time any fruit is sold
+### Output
 
-iv. Send regret message to a client if the requested quantity of the fruit is not available
 
-v. Display the customer ids <IP, port> who has done transactions already.
-This list should be updated in the server every time a transaction occurs
 
-vi. The total number of unique customers who did some transaction will be
-displayed to the customer every time
 
-Steps / Hints:
+---
+## Assignment 3: UDP Socket Programming
 
-Use at least two mininet hosts as clients
+### Objective
 
-Server must be kept running using a loop condition
+To gain experience of UDP socket programming for simple applications.
 
-Take another socket (from accept() call) for keeping client information
+### Question
 
-Server must send the current stock information to the transacting host as queried
+Redo **Assignment 2** using **UDP sockets** instead of TCP sockets.
 
-Learning Outcomes:
+### Output
 
-Multiple client’s communication via server socket can be learned.
 
-Output:
 
-🔹 CN Lab – Assignment 3
-Objective:
 
-To gain experience of UDP Socket Programming for simple applications.
 
-Exercise:
+---
+## Assignment 4: Packet Capture and Protocol Analysis
 
-Redo assignment 2 using UDP socket.
-
-Steps / Hints:
-
-Same as given in Assignment 1.
-
-Learning Outcomes:
-
-Basics of UDP socket programming.
-
-Output:
-
-🔹 Assignment 4
-Objective:
+### Objective
 
 To gain knowledge of packet capturing tools and understand header structures.
 
-Exercise:
+### Question
 
-Install wireshark in a VM (Virtual Machine) environment.
-Draw a time diagram to show the steps in the protocols recorded in the captured file
-(saved in the .pcap file of wireshark) during a PING operation.
-List the L2, L3, L4 header fields that can be extracted from the .pcap file.
+Install Wireshark in a virtual machine environment. Capture packets during a **PING** operation and:
 
-Steps / Hints:
+* Draw a time diagram showing protocol steps
+* List L2, L3, and L4 header fields extracted from the captured `.pcap` file
 
-Install wireshark in your linux vm with mininet
+### Output
 
-Start capturing at any interface
 
-Ping any two hosts
 
-Analyze
 
-Learning Outcomes:
 
-Knowledge of packet capturing tools, protocols and headers.
+---
+## Assignment 5: Packet Generation Tools
 
-Output:
+### Objective
 
-🔹 Assignment 5
-Objective:
+To gain knowledge of packet capturing and generation tools.
 
-To gain knowledge of more packet capturing tools.
+### Question
 
-Exercise:
+Learn and use the maximum number of packet generation tools such as **iperf**, **D-ITG**, etc., and generate traffic between Mininet hosts.
 
-Learn and use maximum number of packet generation tools.
+### Output
 
-Steps / Hints:
 
-Install Iperf, D-ITG etc. and send traffic among mininet hosts.
+**Decode(D-itg_file)**
 
-Learning Outcomes:
 
-Knowledge of packet generation and capturing tools.
+**D-ITG(gen_netTraffic_test_netPerfor)**
+<
 
-Output:
+**hping3(flood_custom_net_packets)**
 
-🔹 Assignment 6
-Objective:
 
-To gain knowledge of more TCP/IP C libraries.
+**output_ass5_iperf3(speed,thourghtput_test)**
 
-Exercise:
 
-Develop a simple C based network simulator to analyze TCP traffic.
+---
+## Assignment 6: TCP/IP Libraries in C
 
-Steps / Hints:
+### Objective
 
-Use TCP/IP based C libraries including socket to listen to the incoming packets at the Ethernet port
+To gain knowledge of TCP/IP C libraries.
 
-Extract header and data of the incoming packets
+### Question
 
-Learning Outcomes:
+Develop a simple C-based network simulator to analyze TCP traffic by:
 
-Knowledge of TCP/IP libraries.
+* Listening to incoming packets at the Ethernet port
+* Extracting headers and data from incoming packets
 
-Output:
+### Output
 
-🔹 Assignment 7
-Objective:
 
-Client server communication with UDP packets.
 
-Exercise:
+---
+## Assignment 7: UDP-Based Scientific Calculator
 
-Write UDP client server socket program where client sends one/two number(s)
-(integer or floating point) to server and a scientific calculator operation
-(like sin, cos, *, /, inv etc.) and server responds with the result after evaluating the value of operation as sent by the client.
+### Objective
 
-Server will maintain a scientific calculator.
-Detect in the mininet hosts with wireshark if there is any packet loss?
-Show it to the TA.
+Client–server communication using UDP packets.
 
-Steps / Hints:
+### Question
 
-Use Math.h library in the server side to compute mathematical expressions
+Write a UDP client–server program where:
 
-Client will send expressions like – sin(x), x+y etc.
+* Client sends one or two numbers and a scientific operation (sin, cos, +, -, *, /, inverse, etc.)
+* Server evaluates the expression and sends back the result
+* Packet loss is detected using Wireshark in Mininet
 
-Use UDP in a graceful manner to detect any packet loss, if occurs
+### Output
 
-Run wireshark at the mininet host’s ethernet to capture packet and detect losses
 
-Learning Outcomes:
 
-Understanding reliability of UDP for transactions.
 
-Output:
+---
+## Assignment 8: Multi-threaded TCP Chat Server
 
-🔹 Assignment 8
-Objective:
+### Objective
 
-Using Thread library and TCP sockets.
+Using thread library and TCP sockets.
 
-Exercise:
+### Question
 
-Write a program in C using thread library and TCP sockets to build a chat server
-which enable clients communicating to each other through the chat server.
+Write a C program using threads and TCP sockets to build a **group chat server** where:
 
-Message logs must be maintained in the server in a text file.
-Each client will see the conversations in real time.
-Clients must handled by a server thread. (Keep it like a group chatbox)
+* Multiple clients communicate through the server
+* Each client is handled by a separate server thread
+* Server maintains a message log with timestamps
+* All clients receive messages in real time
 
-Learning Outcomes:
+### Output
 
-Understanding multi-threading for TCP sockets.
 
-Output:
 
-🔹 Assignment 9
-Objective:
+
+
+---
+## Assignment 9: File Upload and Download Using TCP
+
+### Objective
 
 File upload and download using TCP.
 
-Exercise:
+### Question
 
-Write a client server socket program in TCP for uploading and downloading files
-between two different hosts.
-Also calculate the transfer time in both the cases.
+Write a TCP client–server program for:
 
-Learning Outcomes:
+* Downloading a file from server to client
+* Uploading a file from client to server
+* Measuring transfer time using `time.h` on both client and server sides
 
-Use of TCP for file transfer.
+### Output
 
-Output:
 
-🔹 Assignment 10
-Objective:
+
+
+---
+## Assignment 10: RAW Socket Packet Generation
+
+### Objective
 
 Using RAW sockets to generate packets.
 
-Exercise:
+### Question
 
-Write two C programs using raw socket to send
-i. TCP packet where TCP payload will contain your roll number
-ii. ICMP time stamp messages towards a target IP.
+Write two C programs using RAW sockets to:
 
-Learning Outcomes:
+* Send a TCP packet containing your roll number in the payload
+* Send ICMP timestamp messages to a target IP
 
-Use of RAW socket to create custom TCP and ICMP messages.
+### Output
 
-Use of RAW socket for packet generation.
 
-Output:
 
-🔹 Assignment 11
-Objective:
+
+
+---
+## Assignment 11: TCP SYN Flood Attack Using RAW Sockets
+
+### Objective
 
 Using RAW sockets to generate TCP flooding attack.
 
-Exercise:
+### Question
 
-Write a RAW socket program to generate TCP SYN flood based DDoS attack towards an IP address.
-Take four mininet hosts as agent devices.
+Write a RAW socket program to generate a **TCP SYN flood DDoS attack** using:
 
-Learning Outcomes:
+* One attacker host
+* One victim host
+* Four spoofed agent hosts in Mininet
 
-Use of RAW sockets to generate SYN based flooding attack.
+### Output
 
-Understanding the pattern of TCP control messages for DDoS attack.
 
-Output:
 
-🔹 Assignment 12
-Objective:
+
+
+---
+## Assignment 12: ICMP Flooding Attack Using RAW Sockets
+
+### Objective
 
 Using RAW sockets to generate ICMP flooding attack.
 
-Exercise:
+### Question
 
-Do the same attack as given in assignment no. 11 with ICMP packets using RAW socket.
+Implement the same flooding attack as Assignment 11 using **ICMP packets** instead of TCP.
 
-Learning Outcomes:
+### Output
 
-Use of RAW sockets to generate ICMP based flooding attack.
 
-Understanding the pattern of ICMP communication for DDoS attack.
 
-Output:
 
-🔹 Assignment 13
-Objective:
+
+---
+## Assignment 13: Packet Analysis in Custom Topology
+
+### Objective
 
 To learn packet capturing and analysis.
 
-Exercise:
+### Question
 
-Create a binary tree topology with 7 switches in mininet.
-Capture packets at the root switch.
-Write a C program to extract the headers and draw a time diagram to show the protocols displayed in the captured file
-(save the .pcap/.pcapng file of wireshark/tshark) during a PING operation.
-List the L2, L3, L4 protocols that can be extracted from the .pcap/.pcapng file.
+Create a **binary tree topology** with 7 switches in Mininet and:
 
-Learning Outcomes:
+* Capture packets at the root switch during a PING operation
+* Extract headers using a C program
+* Draw a time diagram of protocol activity
+* List L2, L3, and L4 protocols identified
 
-Learning to analyze packets and its corresponding protocols.
+### Output
 
-Learning the roles of L2/L3/L4 protocols for a communication.
+**Analysing the Packets**
 
-Output:
 
-🔹 Assignment 14
-Objective:
+**Capturing the Packets**
 
-Creating customized topologies in mininet.
 
-Exercise:
 
-Create a custom leaf-spine topology in mininet using python which can be scaled with increasing switch radix.
 
-Learning Outcomes:
+---
+## Assignment 14: Custom Mininet Topology
 
-Understanding mininet API.
+### Objective
 
-Learning to perform experiments in virtual networks.
+Creating customized topologies in Mininet.
 
-Output:
+### Question
+
+Create a **scalable leaf–spine topology** in Mininet using Python and Mininet APIs. A reference to fat-tree topology may be used.
+
+### Output
+
+**Default Topology**
+
+
+**Scale-Up Radix**
+
+
+
+
+### Notes
+
+* All programs are expected to run in a **Linux + Mininet** environment.
+* Screenshots, `.pcap` files, and execution outputs are be added in the respective assignment folders.
