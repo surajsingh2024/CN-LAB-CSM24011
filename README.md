@@ -18,7 +18,7 @@ Write a program to run TCP client and server socket programs where the client fi
 
 ### Output
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/a2731557a821ade7afd8ea595dc09b796a655706/CN%20LAB%20ASSIGNMENTS/Assignment%201/output.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/a2731557a821ade7afd8ea595dc09b796a655706/CN%20LAB%20ASSIGNMENTS/Assignment%201/output.png" />
 
 
 
@@ -42,7 +42,7 @@ Write a program using TCP sockets to implement the following:
 
 ### Output
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%202/output.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%202/output.png" />
 
 
 
@@ -59,7 +59,7 @@ Redo **Assignment 2** using **UDP sockets** instead of TCP sockets.
 
 ### Output
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%203/output.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%203/output.png" />
 
 
 
@@ -83,12 +83,12 @@ Install Wireshark in a virtual machine environment. Capture packets during a **P
 
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/output1.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/output1.png" />
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/output2.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/output2.png" />
 
 ### Time Diagram
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/time_diagram.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/6721977e64b839c3fab296c7e3523828288fc62c/CN%20LAB%20ASSIGNMENTS/Assignment%204/time_diagram.png" />
 
 
 
@@ -107,21 +107,21 @@ To gain knowledge of packet capturing and generation tools.
 Learn and use the maximum number of packet generation tools such as **iperf**, **D-ITG**, etc., and generate traffic between Mininet hosts.
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output1.png" />
+<img width="1041" height="937" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output1.png" />
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output2.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output2.png" />
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output3.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output3.png" />
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output4.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output4.png" />
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output5.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output5.png" />
 
-<img width="1041" height="937" alt="output6" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output6.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%205/output6.png"/>
 
 
 
@@ -143,10 +143,10 @@ Develop a simple C-based network simulator to analyze TCP traffic by:
 * Extracting headers and data from incoming packets
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output1.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output1.png" />
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output2.png" />
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output2.png" />
 
 ---
 ## Assignment 7: UDP-Based Scientific Calculator
@@ -164,7 +164,7 @@ Write a UDP client–server program where:
 * Packet loss is detected using Wireshark in Mininet
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%207/output.png" />
+<img width="1041" height="937" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%207/output.png" />
 
 ---
 ## Assignment 8: Multi-threaded TCP Chat Server
@@ -183,7 +183,7 @@ Write a C program using threads and TCP sockets to build a **group chat server**
 * All clients receive messages in real time
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%208/output.png"/>
+<img width="1041" height="937" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%208/output.png"/>
 
 ---
 ## Assignment 9: File Upload and Download Using TCP
@@ -203,7 +203,7 @@ Write a TCP client–server program for:
 ### Output
 
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%209/output.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%209/output.png"/>
 
 
 ---
@@ -222,10 +222,10 @@ Write two C programs using RAW sockets to:
 
 ### Output
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output1.png"/>
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output2.png"/>
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output3.png"/>
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output4.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output1.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output2.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output3.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2010/output4.png"/>
 
 
 
@@ -248,7 +248,7 @@ Write a RAW socket program to generate a **TCP SYN flood DDoS attack** using:
 * Four spoofed agent hosts in Mininet
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2011/output.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2011/output.png"/>
 
 
 
@@ -267,7 +267,7 @@ Using RAW sockets to generate ICMP flooding attack.
 Implement the same flooding attack as Assignment 11 using **ICMP packets** instead of TCP.
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2012/output.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2012/output.png"/>
 
 
 
@@ -294,9 +294,9 @@ Create a **binary tree topology** with 7 switches in Mininet and:
 ### Output
 
 **Analysing the Packets**
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output1.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output1.png"/>
 **Capturing the Packets**
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output2.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output2.png"/>
 
 
 ---
@@ -313,13 +313,13 @@ Create a **scalable leaf–spine topology** in Mininet using Python and Mininet 
 ### Output
 
 **Default Topology**
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2014/output2.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2014/output2.png"/>
 
 
 
 **Scale-Up Radix**
 
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2014/output1.png"/>
+<img width="1041" height="937"  src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2014/output1.png"/>
 
 
 
