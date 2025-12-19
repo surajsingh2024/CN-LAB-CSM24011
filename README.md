@@ -153,6 +153,7 @@ Develop a simple C-based network simulator to analyze TCP traffic by:
 
 ### Output 1
 <img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output1.png" />
+
 ### Output 2
 <img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output2.png" />
 
@@ -191,8 +192,7 @@ Write a C program using threads and TCP sockets to build a **group chat server**
 * All clients receive messages in real time
 
 ### Output
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%208/output.png
-" />
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%208/output.png"/>
 
 ---
 ## Assignment 9: File Upload and Download Using TCP
@@ -303,8 +303,7 @@ Create a **binary tree topology** with 7 switches in Mininet and:
 ### Output
 
 **Analysing the Packets**
-<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output1.png
-"/>
+<img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output1.png"/>
 **Capturing the Packets**
 <img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%2013/output2.png"/>
 
