@@ -125,16 +125,7 @@ Learn and use the maximum number of packet generation tools such as **iperf**, *
 
 
 
-**Decode(D-itg_file)**
 
-
-**D-ITG(gen_netTraffic_test_netPerfor)**
-<
-
-**hping3(flood_custom_net_packets)**
-
-
-**output_ass5_iperf3(speed,thourghtput_test)**
 
 
 ---
@@ -151,10 +142,10 @@ Develop a simple C-based network simulator to analyze TCP traffic by:
 * Listening to incoming packets at the Ethernet port
 * Extracting headers and data from incoming packets
 
-### Output 1
+### Output
 <img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output1.png" />
 
-### Output 2
+
 <img width="1041" height="937" alt="output_as1" src="https://github.com/surajsingh2024/CN-LAB-CSM24011/blob/728450d81c826f20d629438a3a2fb5a383d3c53a/CN%20LAB%20ASSIGNMENTS/Assignment%206/output2.png" />
 
 ---
